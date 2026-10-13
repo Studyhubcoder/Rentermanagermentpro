@@ -1,0 +1,16 @@
+{
+  "name": "rent-manager-v14",
+  "version": "14.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^18.0.7",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
